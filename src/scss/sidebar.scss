@@ -1,0 +1,21 @@
+.mainSide{
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-color:darkgrey;
+    width: 22.5%;
+    height: 92vh;
+    justify-content: center;
+    display: flex;
+}
+h1 {
+    margin: 30px 0 30px 0;
+}
+.searchDiv{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.searchInput{
+    height: 30px;
+
+}

@@ -1,0 +1,59 @@
+.mainContainer {
+	float: left;
+	width: 35%;
+	height: 100%;
+}
+.sideContainer {
+	float: right;
+	width: 65%;
+	height: 100%;
+}
+.parent {
+	height: 100vh;
+}
+.logoImg {
+	margin-top: 10%;
+	height: 10%;
+	width: 100%;
+}
+.formDiv {
+	float: right;
+	width: 66%;
+	margin-top: 30%;
+}
+.loginInput {
+	width: 95%;
+	margin-top: 12px;
+	height: 34px;
+}
+.loginBtn {
+	margin-top: 12px;
+	margin-left: 8px;
+	background-color: #57977E;
+	color: white;
+	border-style: none;
+	width: 70px;
+	height: 30px;
+}
+@media only screen and (max-width: 600px) {
+	.mainContainer {
+		float: left;
+		width: 90%;
+		height: 100%;
+	}
+	.sideContainer {
+		float: right;
+		width: 10%;
+		height: 100%;
+	}
+	.formDiv {
+		margin-right: 40px;
+		width: 66%;
+		margin-top: 30%;
+	}
+	.logoImg {
+		margin-top: 10%;
+		height: 8%;
+		width: 100%;
+	}
+}
