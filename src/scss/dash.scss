@@ -1,0 +1,22 @@
+.contentDiv{
+    height: 92vh;
+    width: 77.5%;
+    display: inline;
+    float: right;
+    position: relative;
+}
+.pageFix{
+    display: flex;
+}
+.contentBtn{
+    background-color: #FFC236;
+    width: 40px;
+    height: 40px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 100px;
+    border-style: solid;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}

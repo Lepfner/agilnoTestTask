@@ -17,5 +17,17 @@ h1 {
 }
 .searchInput{
     height: 30px;
-
+    width: 98%;
+}
+.searchInput:focus{
+    outline: none;
+}
+.inputIcon{
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    color: grey;
+}
+.divParent{
+    position: relative;
 }
