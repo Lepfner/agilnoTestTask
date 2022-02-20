@@ -2,10 +2,11 @@
     border-right-style: solid;
     border-right-width: 1px;
     border-color:darkgrey;
-    width: 22.5%;
+    width: 27.5%;
     height: 92vh;
     justify-content: center;
     display: flex;
+    overflow: auto;
 }
 h1 {
     margin: 30px 0 30px 0;

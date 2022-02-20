@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 20px 0px 20px 0px;
-    height: 100px;
+    height: 120px;
     box-shadow: 5px 0px 5px 5px rgb(0 0 0 / 0.1), 20px 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 .postBtn{
@@ -12,4 +12,14 @@
 	border-style: none;
 	width: 100px;
 	height: 30px;
+    margin-bottom: 20px;
+}
+.postImg{
+    width: 50%;
+    height: 90%;
+    margin-top: 1.5%;
+}
+.postName{
+    margin-top: 60%;
+    margin-right: 5px;
 }
