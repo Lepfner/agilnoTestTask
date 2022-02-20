@@ -37,7 +37,7 @@ export default function Dashboard() {
         <Sidebar setSelectedVal={setSelectedVal} />
         <div className='contentDiv'>
           <Selected selectedVal={selectedVal} />
-          <Blog />
+          <Blog selectedVal={selectedVal}/>
           <button onClick={changeBlog} className='contentBtn'><FontAwesomeIcon id="icon" icon={faMessage} /></button>
         </div>
       </div>

@@ -5,6 +5,7 @@ import '../scss/header.scss';
 //Pictures
 import logo from '../assets/logo2.jpg'
 import account from '../assets/accLogo.jpg'
+//import hamburger from '../assets/hamburger.png'
 
 export default function header() {
   return (

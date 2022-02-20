@@ -6,18 +6,19 @@ import '../scss/postBlog.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 
-export default function postBlog() {
+export default function postBlog({ selectedVal }) {
   return (
     <div className='blogDiv' id="blog">
       <div className='blogHeader'>
-
+        <p className='headerText'><b>{selectedVal.name}</b></p>
       </div>
       <div className='blogContent'>
-
+        <img className='selectedBlogPic' src={selectedVal.picture} alt=""/>
+        <p>{selectedVal.comment}</p>
       </div>
       <div className='blogFooter'>
         <FontAwesomeIcon className='commentPlane' icon={faPaperPlane} />
-        <input className="commentInput" placeholder='LEAVE COMMENT' />
+        <input className="commentInput" placeholder='  LEAVE COMMENT' />
       </div>
     </div>
   )

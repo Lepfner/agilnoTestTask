@@ -8,6 +8,11 @@
     display: flex;
     overflow: auto;
 }
+@media only screen and (max-width: 600px) {
+    .mainSide{
+        width: 0%;
+    }
+  }
 h1 {
     margin: 30px 0 30px 0;
 }

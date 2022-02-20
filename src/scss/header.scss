@@ -11,8 +11,17 @@
 .logo{
     height: 90%;
     border-radius: 200px;
-    margin-left: 100%;
-    margin-top: 5%;
+    margin-left: 50%;
+    margin-top: 4%;
+    display: inline;
+}
+@media only screen and (max-width: 600px) {
+    .logo{
+        margin-left: 10%;
+    }
+    .accountDiv{
+        visibility: hidden;
+    }
 }
 .account{
     height: 90%;

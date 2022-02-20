@@ -6,6 +6,11 @@
     position: relative;
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .contentDiv{
+        width: 100%;
+    }
+  }
 .pageFix{
     display: flex;
 }
